@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="4dp"
+    android:paddingRight="4dp"
+    android:paddingBottom="10dp"
+    android:orientation="vertical">
+
+    <com.jcodecraeer.xrecyclerview.XRecyclerView
+        android:id="@+id/xrv_tianwen"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/xrv_bg">
+    </com.jcodecraeer.xrecyclerview.XRecyclerView>
+
+</LinearLayout>

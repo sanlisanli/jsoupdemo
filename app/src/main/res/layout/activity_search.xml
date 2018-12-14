@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/layout_include_toolbar"/>
+    <RelativeLayout
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <EditText
+            android:textSize="14sp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/et_search"/>
+        <ImageView
+            android:id="@+id/iv_delete"
+            android:visibility="invisible"
+            android:clickable="true"
+            android:layout_marginEnd="60dp"
+            android:layout_alignParentEnd="true"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@mipmap/delete_fill"/>
+        <ImageView
+            android:id="@+id/iv_search"
+            android:visibility="visible"
+            android:clickable="true"
+            android:layout_marginEnd="10dp"
+            android:layout_alignParentEnd="true"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@mipmap/search"/>
+    </RelativeLayout>
+    <com.zhy.view.flowlayout.TagFlowLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/flow_layout"
+        app:max_select="1"
+        android:padding="16dp">
+    </com.zhy.view.flowlayout.TagFlowLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_margin="10dp">
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rv_baike">
+        </android.support.v7.widget.RecyclerView>
+    </RelativeLayout>
+
+</LinearLayout>

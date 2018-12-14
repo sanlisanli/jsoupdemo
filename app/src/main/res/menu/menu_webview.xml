@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="图片下载"
+        android:id="@+id/download"
+        app:showAsAction="always"
+        android:icon="@mipmap/download"/>
+    <item
+        android:title="在浏览器中打开"
+        app:showAsAction="never"
+        android:icon="@mipmap/browser"
+        android:id="@+id/browser"/>
+</menu>

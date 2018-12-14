@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Science</string>
+    <string name="guoke">果壳</string>
+    <string name="tianzhiwen">天之文</string>
+    <string name="songshuhui">科学松鼠会</string>
+    <string name="et_clear_hint">黑洞</string>
+    <string name="mine_bottom">我也是有底线的</string>
+    <string-array name="animal">
+        <item>小猪</item>
+        <item>小狗</item>
+        <item>小猫</item>
+    </string-array>
+</resources>

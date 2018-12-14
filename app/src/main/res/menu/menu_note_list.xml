@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:icon="@mipmap/trash_fill"
+        android:title="删除模式"
+        app:showAsAction="never"
+        android:id="@+id/delete_mode"/>
+
+</menu>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="Search_View">
+        <attr name="textSizeSearch" format="dimension"  />
+        <attr name="textColorSearch" format="color" />
+        <attr name="textHintSearch" format="string" />
+        <attr name="searchBlockHeight" format="integer" />
+        <attr name="searchBlockColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="BottomBarItem">
+        <attr name="iconNormal" format="reference"/>
+        <attr name="iconSelected" format="reference"/>
+        <attr name="itemText" format="string"/>
+        <attr name="itemTextSize" format="dimension"/>
+        <attr name="textColorNormal" format="color"/>
+        <attr name="textColorSelected" format="color"/>
+
+        <attr name="itemMarginTop" format="dimension"/>
+        <attr name="openTouchBg" format="boolean"/>
+        <attr name="touchDrawable" format="reference"/>
+        <attr name="iconHeight" format="dimension"/>
+        <attr name="iconWidth" format="dimension"/>
+        <attr name="itemPadding" format="dimension"/>
+    </declare-styleable>
+    <declare-styleable name="BottomBarLayout">
+        <attr name="smoothScroll" format="boolean"/>
+    </declare-styleable>
+</resources>
