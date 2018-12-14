@@ -1,7 +1,7 @@
 # jsoupdemo
    
   
-<a href="https://github.com/sanlisanlisanli/jsoupdemo/tree/master/apk">apk下载</a>    
+<a href="https://github.com/sanlisanli/jsoupdemo/tree/master/apk">apk下载</a>    
   
 要知道每一个资源丰富的app背后都有一个庞大的数据库作为内容支撑的，那是不是意味着没有强大团队的的我们就与开发资源精彩丰富的app无缘了呢   
   
@@ -30,13 +30,13 @@ private String link;
   
 以 http://www.astron.ac.cn/list-2-1.htm 为例，光标移动到第一篇文章的标题  “宇宙团状物质以三分之一光速的速度被吸入黑洞中”  处，   
   
-<img src="https://github.com/sanlisanlisanli/jsoupdemo/blob/master/screenshots/QQ%E6%B5%8F%E8%A7%88%E5%99%A8%E6%88%AA%E5%9B%BE20181001024600.png"/>  
+<img src="https://github.com/sanlisanli/jsoupdemo/blob/master/screenshots/QQ%E6%B5%8F%E8%A7%88%E5%99%A8%E6%88%AA%E5%9B%BE20181001024600.png"/>  
   
 右键鼠标，点击检查  
   
 然后就可以看到整个document tree 了  
   
-<img src="https://github.com/sanlisanlisanli/jsoupdemo/blob/master/screenshots/QQ%E6%B5%8F%E8%A7%88%E5%99%A8%E6%88%AA%E5%9B%BE20181001022941.png"/>     
+<img src="https://github.com/sanlisanli/jsoupdemo/blob/master/screenshots/QQ%E6%B5%8F%E8%A7%88%E5%99%A8%E6%88%AA%E5%9B%BE20181001022941.png"/>     
   
 这个网页的结构可是说是非常简单明了，document tree 的结构一目了然    
        
@@ -44,7 +44,7 @@ private String link;
   
 三、依据document tree的结构一一爬取我们想要的文本text，图片链接src和跳转链接href（title,img,content,link）  
   
-<img src="https://github.com/sanlisanlisanli/jsoupdemo/blob/master/screenshots/3.png"/>       
+<img src="https://github.com/sanlisanli/jsoupdemo/blob/master/screenshots/3.png"/>       
     
 private static String TianZhiWenHead="http://www.astron.ac.cn/";   
 public List<TianWen>getTianWen(String s){//s为网页url  
@@ -80,17 +80,17 @@ e.children()就是 ul 标签下所有的 li 标签，注意用.children的时候
    
 五、本项目截图  
   
-<img src="https://github.com/sanlisanlisanli/jsoupdemo/blob/master/screenshots/Screenshot_20181001-035002.jpg" width="260" height="480"/>   
+<img src="https://github.com/sanlisanli/jsoupdemo/blob/master/screenshots/Screenshot_20181001-035002.jpg" width="260" height="480"/>   
 
-<img src="https://github.com/sanlisanlisanli/jsoupdemo/blob/master/screenshots/Screenshot_20181001-035009.jpg" width="260" height="480"/>     
+<img src="https://github.com/sanlisanli/jsoupdemo/blob/master/screenshots/Screenshot_20181001-035009.jpg" width="260" height="480"/>     
   
    
-<img src="https://github.com/sanlisanlisanli/jsoupdemo/blob/master/screenshots/Screenshot_20181001-035023.jpg" width="260" height="480"/>     
+<img src="https://github.com/sanlisanli/jsoupdemo/blob/master/screenshots/Screenshot_20181001-035023.jpg" width="260" height="480"/>     
     
        
-<img src="https://github.com/sanlisanlisanli/jsoupdemo/blob/master/screenshots/Screenshot_20181001-035035.jpg" width="260" height="480"/>  
+<img src="https://github.com/sanlisanli/jsoupdemo/blob/master/screenshots/Screenshot_20181001-035035.jpg" width="260" height="480"/>  
   
-<img src="https://github.com/sanlisanlisanli/jsoupdemo/blob/master/screenshots/Screenshot_20181001-035042.jpg" width="260" height="480"/>
+<img src="https://github.com/sanlisanli/jsoupdemo/blob/master/screenshots/Screenshot_20181001-035042.jpg" width="260" height="480"/>
   
      
 六、拥抱开源  
